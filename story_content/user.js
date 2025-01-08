@@ -2,46 +2,46 @@ function ExecuteScript(strId)
 {
   switch (strId)
   {
-      case "6fh5dYJFEv8":
+      case "6PR0AckB9f8":
         Script1();
         break;
-      case "6dNOUtEcrC8":
+      case "5uDy7xuVI81":
         Script2();
         break;
-      case "5g4lxagqLRF":
+      case "6pOzgLxlsM0":
         Script3();
         break;
-      case "5qnH1Uxt07U":
+      case "6D77rDppTJa":
         Script4();
         break;
-      case "6r5yGEclHJp":
+      case "5ZKhO9Mg5K8":
         Script5();
         break;
-      case "6eXxT9DKMD2":
+      case "5xsREvB0ut8":
         Script6();
         break;
-      case "6NejTfogcNW":
+      case "5W43sJ6rqfO":
         Script7();
         break;
-      case "6Qh2f4CnDR4":
+      case "6l8n9ZS6c7d":
         Script8();
         break;
-      case "5j08Fz7Eiem":
+      case "6PMQPGTAyHJ":
         Script9();
         break;
-      case "5eF2jqSR87u":
+      case "6OIgRu7Rukq":
         Script10();
         break;
-      case "6RZj6jGLysS":
+      case "5mzPcD2JmDP":
         Script11();
         break;
-      case "60Ey3x9DMCm":
+      case "5glgK2qLujL":
         Script12();
         break;
-      case "6Dr299pJhdM":
+      case "6UxqiRW3Lbn":
         Script13();
         break;
-      case "6khnysJTJ6U":
+      case "60CUJkCrR0S":
         Script14();
         break;
   }
@@ -50,8 +50,8 @@ function ExecuteScript(strId)
 function Script1()
 {
   var audio = document.getElementById("bgSongku");
-// audio.src = "musikku.mp3";
-// audio.load();
+audio.src = "musikku.mp3";
+audio.load();
 audio.play();
 audio.volume = 0.5;
 }
